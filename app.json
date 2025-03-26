@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "myColor",
+    "slug": "myColor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.mycolor",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need access to your camera to analyze your skin tone and determine your color season.",
+        "NSPhotoLibraryUsageDescription": "We need access to your photo library to analyze your skin tone from existing photos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.mycolor"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+} 
